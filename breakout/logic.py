@@ -7,13 +7,13 @@ class BreakoutLogic:
         
         # Paddle setup
         self.paddle = pygame.Rect(width // 2 - 50, height - 50, 100, 15)
-        self.paddle_speed = 10
+        self.paddle_speed = 5
         
         # Ball setup
         self.ball_size = 12
         self.ball = pygame.Rect(width // 2 - 6, height // 2, self.ball_size, self.ball_size)
-        self.ball_dx = 8
-        self.ball_dy = -10
+        self.ball_dx = 4
+        self.ball_dy = -5
         
         # Bricks setup (5 rows, 10 columns)
         self.brick_rows = 5

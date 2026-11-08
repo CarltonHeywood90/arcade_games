@@ -16,11 +16,11 @@ class PongLogic:
         # Ball configuration
         self.ball_size = 15
         self.ball = pygame.Rect(width // 2 - self.ball_size // 2, height // 2 - self.ball_size // 2, self.ball_size, self.ball_size)
-        self.ball_dx = 22 * (1 if pygame.time.get_ticks() % 2 == 0 else -1)
-        self.ball_dy = 12 * (1 if pygame.time.get_ticks() % 3 == 0 else -1)
+        self.ball_dx = 6 * (1 if pygame.time.get_ticks() % 2 == 0 else -1)
+        self.ball_dy = 3 * (1 if pygame.time.get_ticks() % 3 == 0 else -1)
         
         # Paddle speeds
-        self.paddle_speed = 20
+        self.paddle_speed = 6
 
     def move_paddle(self, paddle_key, direction):
         """Moves left or right paddle within screen bounds."""

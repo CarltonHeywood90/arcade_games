@@ -8,7 +8,7 @@ class SpaceInvadersLogic:
         
         # Player setup
         self.player = pygame.Rect(width // 2 - 25, height - 60, 50, 25)
-        self.player_speed = 12
+        self.player_speed = 6
         
         # Bullets
         self.bullets = []
@@ -18,7 +18,7 @@ class SpaceInvadersLogic:
         self.alien_rows = 5
         self.alien_cols = 10
         self.aliens = []
-        self.alien_dx = 4
+        self.alien_dx = 2
         self.alien_drop = 15
         
         self.init_aliens()
