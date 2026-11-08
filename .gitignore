@@ -1,0 +1,13 @@
+# Python / Virtual Environments
+venv/
+__pycache__/
+*.pyc
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+*.spec
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
